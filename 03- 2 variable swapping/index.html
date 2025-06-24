@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+        <script>
+                let a = 5;
+                let b = 3;
+
+                console.log("Before Swapping: a =", a, ", b =", b);
+
+                // Swapping without temp variable using arithmetic
+                a = a + b;  // a becomes 8
+                b = a - b;  // b becomes 5 (original a)
+                a = a - b;  // a becomes 3 (original b)
+
+                console.log("After Swapping: a =", a, ", b =", b);
+        </script>
+</body>
+
+</html>
